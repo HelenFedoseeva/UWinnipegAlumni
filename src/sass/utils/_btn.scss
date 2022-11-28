@@ -1,0 +1,26 @@
+.btn {
+    padding: 7px 18px;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+
+}
+
+.btn__light{
+    min-width: 127px;
+    color: var(--main-color);
+    background: #FFF8F8;
+    border-radius: 41px;
+
+    font-family: 'Roboto';
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 14px;
+}
+
+.btn__dark{
+    min-width: 210px;
+    color: #FFFBFB;
+}
