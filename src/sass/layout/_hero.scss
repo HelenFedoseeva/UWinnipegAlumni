@@ -1,0 +1,69 @@
+.main {
+    border-left: 1px solid #000;
+    border-bottom: 1px solid #000;
+    margin-bottom: 70px;
+}
+
+
+.hero__wrapper {
+    display: flex;
+    flex-direction: row;
+}
+.main__form{
+    padding: 49px 38px;
+}
+.hero__nav {
+    display: flex;
+    flex-direction: row;
+   align-items: center;
+   justify-content: space-between;
+   margin-bottom: 120px;
+}
+
+.hero__nav-link {
+display: flex;
+    flex-direction: column;
+    justify-content: center;
+        align-items: center;
+}
+
+
+.hero__nav-icon {
+   margin-bottom: 12px;
+}
+
+.hero__nav-text {
+    font-family: 'Roboto';
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 19px;
+        text-align: center;
+        color: #000;
+}
+
+
+.hero__title{
+    font-family: 'Roboto';
+        font-weight: 400;
+        font-size: 50px;
+        line-height: 59px;
+
+        margin-bottom: 21.7px;
+}
+
+.hero__title-alumni{
+color: var(--main-color);
+}
+
+.hero__description{
+    font-family: 'Roboto';
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 19px;
+
+        margin-bottom: 21.7px;
+}
+
+.btn__hero{
+    min-height: 56px;
+}

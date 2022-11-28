@@ -1,0 +1,29 @@
+.president-section {
+    background-image: url(../images/president-msg/president-msg-min.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    padding-top: 49px;
+    padding-left: 49px;
+    padding-bottom: 22px;
+    
+    border: 1px solid #000;
+}
+
+
+.president-section__title {
+    margin-bottom: 13px;
+    font-family: 'Roboto';
+        font-weight: 400;
+        font-size: 45px;
+        line-height: 53px;
+}
+
+.president-section__description {
+    font-family: 'Roboto';
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 19px;
+
+        margin-bottom: 78px;
+}

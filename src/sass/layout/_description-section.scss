@@ -1,0 +1,36 @@
+.description-section {
+    padding-top: 138px;
+    padding-left: 87px;
+    padding-bottom: 115px;
+}
+
+
+.description-section__wrapper {
+    display: flex;
+    flex-direction: row;
+    gap: 43px;
+}
+
+.description-section__item {}
+
+.description-section__item-title {
+    font-family: 'Roboto';
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 23px;
+}
+
+.description-section__item-text {
+    font-family: 'Roboto';
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 19px;
+}
+
+.description-section__item-link {
+    font-family: 'Roboto';
+
+        font-weight: 400;
+        font-size: 17px;
+        line-height: 20px;
+}
