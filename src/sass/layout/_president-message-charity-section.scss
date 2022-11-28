@@ -1,0 +1,35 @@
+.charity-section {
+    background-color: #FFFCFC;
+    padding: 68px 21px;
+    margin-bottom: 75px;
+}
+
+
+.charity-section__logo {
+    margin-right: 219px;
+}
+
+.charity-section__wrapper {
+    display: flex;
+    flex-direction: row;
+}
+
+.charity-section__title {
+    font-family: 'Roboto';
+        font-weight: 400;
+        font-size: 45px;
+        line-height: 53px;
+
+        margin-bottom: 20px;
+}
+
+.charity-section__descr {
+    font-family: 'Roboto';
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 19px;
+}
+
+.charity-section__link{
+    font-weight: bold;
+}
