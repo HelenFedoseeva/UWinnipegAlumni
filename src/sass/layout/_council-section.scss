@@ -1,0 +1,35 @@
+.council-section {
+    padding: 42px 48px;
+}
+.council-section__item{
+    display: flex;
+    flex-direction: row;
+
+}
+
+.council-section__item:not(:last-child) {
+    margin-bottom: 83px;
+}
+
+
+
+.council-section__item-img {
+    margin-right: 43px;
+}
+
+.council-section__item-title {
+    font-family: 'Inter';
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 19px;
+        
+        margin-bottom: 30px;
+}
+
+
+.council-section__item-description {
+    font-family: 'Inter';
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 19px;
+}
