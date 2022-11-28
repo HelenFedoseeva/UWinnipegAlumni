@@ -1,0 +1,41 @@
+.shop-wallet {
+    background-color: #FFFCFC;
+
+    padding-top: 53px;
+    padding-left: 29px;
+    padding-bottom: 53px;
+
+    margin-bottom: 91px;
+}
+
+
+.shop-wallet__title {
+    font-family: 'Roboto';
+        font-weight: 400;
+        font-size: 50px;
+        line-height: 59px;
+
+        margin-bottom: 17px;
+}
+
+.shop-wallet__desc {
+    font-family: 'Roboto';
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 19px;
+
+        margin-bottom: 20px;
+}
+
+.shop-wallet__nav {
+    display: flex;
+    align-items: center;
+}
+
+.shop-wallet__btn{
+    margin-right: 51px;
+}
+
+.shop-wallet__logo{
+    margin-right: 28px;
+}
