@@ -1,0 +1,17 @@
+.footer {
+    background-color: var(--main-color);
+
+    padding: 15px 19px;
+}
+
+.footer__wrapper{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.footer__logo{
+    text-transform: uppercase;
+}

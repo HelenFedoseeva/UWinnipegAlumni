@@ -1,7 +1,12 @@
-.main {
+.hero {
     border-left: 1px solid #000;
     border-bottom: 1px solid #000;
     margin-bottom: 70px;
+
+    background-image: url('../images/hero/graduated_women-min.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: right;
 }
 
 
@@ -9,7 +14,7 @@
     display: flex;
     flex-direction: row;
 }
-.main__form{
+.hero__form{
     padding: 49px 38px;
 }
 .hero__nav {
