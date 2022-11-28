@@ -1,0 +1,77 @@
+.body{
+    background-color: #E5E5E5;
+}
+.news-section {
+    background-image: url('../images/news/seminar-min.png');
+        background-repeat: no-repeat;
+        background-size: 768px;
+        background-position: right;
+
+        min-height: 590px;
+        margin-top: 38px;
+        margin-bottom: 70px;
+
+        background-color: #FEF8F8;
+}
+
+.news-section__wrapper{
+    display: flex;
+    flex-direction: row;
+}
+
+.news-section__form{
+    padding: 49px 38px;
+
+}
+.news-section__nav {
+ 
+    display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        margin-bottom: 120px;
+}
+
+
+.news-section__nav-link {
+    display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+}
+
+.news-section__nav-icon {
+    margin-bottom: 12px;
+}
+
+.news-section__nav-text {
+    font-family: 'Roboto';
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 19px;
+        text-align: center;
+        color: #000;
+
+}
+
+.news-section__title {
+font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 59px;
+    
+    margin-bottom: 22px;
+}
+
+.news-section__title-alumni{
+    color: var(--main-color);
+}
+
+.news-section__text{
+    font-family: 'Roboto';
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 19px;
+
+        margin-bottom: 39px;
+}
