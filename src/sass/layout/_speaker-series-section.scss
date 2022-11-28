@@ -1,0 +1,38 @@
+.speaker-series-section{
+    background-image: url(../images/speaker-series-section/speaker-section-background.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    padding-top: 44px;
+    padding-left: 111px;
+    padding-bottom: 75px;
+    margin-bottom: 90px;
+
+    border: 1px solid #000;
+}
+
+.speaker-series-section__title {
+    margin-bottom: 66px;
+    font-family: 'Roboto';
+        font-weight: 400;
+        font-size: 45px;
+        line-height: 53px;
+}
+
+.speaker-series-section__news-item {
+    display: flex;
+    flex-direction: row;
+}
+
+.speaker-series-section__item:not(:last-child) {
+    margin-right: 193px;
+}
+
+.speaker-series-section__link {
+    font-family: 'Roboto';
+        font-weight: 400;
+        font-size: 26px;
+        line-height: 30px;
+}
+
+.speaker-series-section__icon {}
