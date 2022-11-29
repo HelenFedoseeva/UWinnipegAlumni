@@ -1,7 +1,16 @@
+.body__alumni-chapters{
+    background-color: #E5E5E5;
+}
 .chapters-events-section {
     border: 1px solid #000;
+    background-color: #FFFCFC;
 
-    padding: 41px 48px;
+    padding-top: 49px;
+    padding-left: 48px;
+    padding-bottom: 139px;
+
+    margin-top: 78px;
+    margin-bottom: 39px;
 }
 
 .chapters-events-section__title {
@@ -9,14 +18,34 @@
         font-weight: 400;
         font-size: 45px;
         line-height: 53px;
+
+        margin-bottom: 88px;
 }
 
 .chapters-events-section__list {
-    list-style: none;
-    padding: 0px;
-    margin: 0px;
+  
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap ;
+    gap: 128px;
+
+    margin-left: 199px;
 }
 
+.chapters-events-section__descr-wrapper{
+    min-height: 87px;
+    background-color: #767676;
+    border-radius: 8px;
+
+    padding: 7px 19px;
+}
+
+.chapters-events-section__descr{
+    font-family: 'Inter';
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 29px;
+}
 // .chapters-events-section__item {}
 
 // .chapters-events-section__descr {}
