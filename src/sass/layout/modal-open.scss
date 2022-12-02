@@ -23,12 +23,13 @@
         left: 50%;
         overflow-y: auto;
         width: 100%;
-        max-width: 400px;
+        max-width: 450px;
         max-height: 940px;
         height: 100%;
         margin-top: 30px;
         padding: 48px 20px 40px;
-        background: #ffffff;
+        background: rgb(255, 22, 22);
+            background: linear-gradient(96deg, rgba(255, 22, 22, 1) 0%, rgba(252, 48, 48, 1) 0%, rgba(243, 114, 114, 1) 8%, rgba(229, 229, 229, 1) 60%);
         box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
             0px 2px 1px rgba(0, 0, 0, 0.2);
         border-radius: 4px;
@@ -56,9 +57,7 @@
     cursor: pointer;
 }
 
-.modal__form {}
 
-.form {}
 
 .form__title {
     font-family: 'Roboto';
@@ -69,6 +68,7 @@
 
 .form__container {
     padding: 15px;
+    margin-bottom: 20px;
 }
 
 .form__label:not(:last-child) {
@@ -97,4 +97,11 @@
         line-height: 23px;
 
     margin-bottom: 8px;
+}
+
+
+.modal__btn-wrapper{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
