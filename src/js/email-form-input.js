@@ -5,11 +5,12 @@ import {
   closeModalClikcOutside,
 } from './modal-open';
 
-const emailInputBtnRef = document.getElementById('#email-modal');
+const emailInputBtnHeaderRef = document.getElementById('#email-modal-header');
+const emailInputBtnFooterRef = document.getElementById('#email-modal-footer');
 const modalFormRef = document.querySelector('.form');
 
-emailInputBtnRef.addEventListener('click', onEmailFormClickHandler);
-console.log(backdropRef);
+emailInputBtnHeaderRef.addEventListener('click', onEmailFormClickHandler);
+emailInputBtnFooterRef.addEventListener('click', onEmailFormClickHandler);
 
 function onEmailFormClickHandler(e) {
   backdropRef.classList.remove('is-hidden');
