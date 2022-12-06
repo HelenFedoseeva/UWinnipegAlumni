@@ -35,10 +35,10 @@ function renderEmailForm() {
             <div class="form__container">
                 <label class="form__label">
                 <span class="form__label-title">E-mail</span>
-                <input class="form__input" type='text' name='e-mail' placeholder='Your e-mail'>
+                <input class="form__input" type='text' name='e-mail' placeholder='Your e-mail' required>
                 </label> 
             </div>
-        <button class="btn btn__light" type='button'>Submit</button>
+        <button class="btn btn__light" type='submit'>Submit</button>
     </div>
     `;
   return modalFormRef.insertAdjacentHTML('afterbegin', markup);

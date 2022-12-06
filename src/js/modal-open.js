@@ -1,8 +1,10 @@
 export const btnRef = document.getElementById('#modal');
 export const backdropRef = document.querySelector('.backdrop');
-const modalFormRef = document.querySelector('.modal__form');
+export const modalFormRef = document.querySelector('.modal__form');
+const modalIconCloseRef = document.getElementById('#modal-close');
 
 btnRef.addEventListener('click', onClickHadler);
+modalIconCloseRef.addEventListener('click', onCloseBtnClick);
 
 export function onClickHadler(e) {
   backdropRef.classList.remove('is-hidden');
@@ -15,7 +17,7 @@ export function onClickHadler(e) {
   document.addEventListener('click', closeModalClikcOutside);
 
   modalFormRef.addEventListener('click', event => {
-    if (event.target.nodeName !== 'BUTTON') {
+    if (!event.target.classList.contains('btn__modal-close')) {
       return;
     }
     onCloseBtnClick();
@@ -28,7 +30,7 @@ function formInputRender() {
             <div class="form__container">
                 <label class="form__label">
                     <span class="form__label-title">First Name</span>
-                    <input class="form__input" type="text" name="first-name" placeholder="Alex">
+                    <input class="form__input" type="text" name="first-name" placeholder="Alex" required="required" >
                 </label>
                 <label class="form__label">
                     <span class="form__label-title">Last Name</span>
@@ -52,8 +54,9 @@ function formInputRender() {
                 </label>
             </div>
             <div class="modal__btn-wrapper">
-                <button class="btn btn__light" type="submit">Submit</button>
                 <button class="btn btn__light btn__modal-close" type="button">Close</button>
+                <button class="btn btn__light" type="submit">Submit</button>
+                
             </div>
   `;
 
@@ -71,7 +74,6 @@ export function closeModalEscape(e) {
 }
 
 export function closeModalClikcOutside(e) {
-  console.log(e.target.classList.value);
   if (e.target.classList.value !== 'backdrop') {
     return;
   }
