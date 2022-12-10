@@ -3,6 +3,7 @@ import {
   onCloseBtnClick,
   closeModalEscape,
   closeModalClikcOutside,
+  modalRef,
 } from './modal-open';
 
 const emailInputBtnHeaderRef = document.getElementById('#email-modal-header');
@@ -24,6 +25,13 @@ function onEmailFormClickHandler(e) {
 
   modalFormRef.innerHTML = '';
   renderEmailForm();
+
+  modalRef.addEventListener('click', event => {
+    if (!event.target.classList.contains('btn__modal-close')) {
+      return;
+    }
+    onCloseBtnClick();
+  });
 }
 
 function renderEmailForm() {
@@ -35,14 +43,10 @@ function renderEmailForm() {
             <div class="form__container">
                 <label class="form__label">
                 <span class="form__label-title">E-mail</span>
-                <input class="form__input" type='text' name='e-mail' placeholder='Your e-mail' required>
+                <input class="field form__input" type='text' name='e-mail' placeholder='Your e-mail' required>
                 </label> 
             </div>
-        <button class="btn btn__light" type='submit'>Submit</button>
     </div>
     `;
   return modalFormRef.insertAdjacentHTML('afterbegin', markup);
 }
-
-document.removeEventListener('keydown', closeModalEscape);
-document.removeEventListener('click', closeModalClikcOutside);
