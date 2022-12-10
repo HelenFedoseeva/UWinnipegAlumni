@@ -24,4 +24,6 @@ function onSubmitClickHandler(e) {
     console.log(submitObj);
     element.value = '';
   }
+
+  return submitObj;
 }
