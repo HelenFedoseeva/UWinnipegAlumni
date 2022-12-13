@@ -40,4 +40,16 @@ font-family: 'Roboto';
     margin-right: 25px;
 }
 
+.header__nav-item-btn{
+    padding: 4px;
 
+    min-width: 100px;
+    min-height: 24px;
+    border-radius: 12px;
+    border: none;
+    background-color: rgb(232, 218, 183);
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+
+    cursor: pointer;
+}
