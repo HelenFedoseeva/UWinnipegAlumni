@@ -1,8 +1,10 @@
 const bodyRef = document.getElementById('body');
 const switchModeBtnRef = document.querySelector('.header__nav-item-btn');
+const switchModeSvgRef = document.querySelector('.header__btn-mode');
 const sectionArrayRef = document.querySelectorAll('.section');
 
 switchModeBtnRef.addEventListener('click', onSwitchThemeClickHandler);
+switchModeSvgRef.addEventListener('click', onSwitchThemeClickHandler);
 
 if (!localStorage.getItem('dark-mode')) {
   localStorage.setItem('dark-mode', 'false');

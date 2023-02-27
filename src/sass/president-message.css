@@ -1,0 +1,76 @@
+.president-message-body {
+  background-color: #E5E5E5;
+}
+
+.president-message-section__hero {
+  background-image: url(../images/president-message/president-min.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: right;
+  margin-top: 39px;
+  background-color: #FEF9F9;
+  min-height: 590px;
+  margin-bottom: 75px;
+}
+
+.president-message__form {
+  padding-left: 48px;
+  padding-right: 77px;
+  padding-top: 33px;
+}
+
+.president-speak-section {
+  background-color: #FFFCFC;
+  padding: 44px 48px;
+  border: 1px solid #000;
+  margin-bottom: 51px;
+}
+
+.president-speak-section__title {
+  font-family: "Roboto";
+  font-weight: 400;
+  font-size: 45px;
+  line-height: 53px;
+  margin-bottom: 22px;
+}
+
+.president-speak-section__text {
+  font-family: "Roboto";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+}
+
+.charity-section {
+  background-color: #FFFCFC;
+  padding: 68px 21px;
+  margin-bottom: 75px;
+}
+
+.charity-section__logo {
+  margin-right: 219px;
+}
+
+.charity-section__wrapper {
+  display: flex;
+  flex-direction: row;
+}
+
+.charity-section__title {
+  font-family: "Roboto";
+  font-weight: 400;
+  font-size: 45px;
+  line-height: 53px;
+  margin-bottom: 20px;
+}
+
+.charity-section__descr {
+  font-family: "Roboto";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+}
+
+.charity-section__link {
+  font-weight: bold;
+}/*# sourceMappingURL=president-message.css.map */

@@ -1,0 +1,80 @@
+.about-hero {
+  border-left: 1px solid #000;
+  border-bottom: 1px solid #000;
+  margin-bottom: 70px;
+  background-image: url("../images/about-section/about_bcground-min.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: right;
+}
+
+.about__description {
+  padding: 49px 49px;
+  margin-bottom: 45px;
+  border: 1px solid #000;
+}
+
+.about__description-title {
+  font-family: "Roboto";
+  font-weight: 400;
+  font-size: 45px;
+  line-height: 53px;
+  margin-bottom: 25px;
+}
+
+.about__description-text {
+  font-family: "Roboto";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+}
+
+.about__description-link {
+  font-weight: 700;
+}
+
+.council-section {
+  padding: 42px 48px;
+}
+
+.council-section__item {
+  display: flex;
+  flex-direction: row;
+}
+
+.council-section__item:not(:last-child) {
+  margin-bottom: 83px;
+}
+
+.council-section__item-img {
+  margin-right: 43px;
+}
+
+.council-section__item-title {
+  font-family: "Inter";
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 19px;
+  margin-bottom: 30px;
+}
+
+.council-section__item-description {
+  font-family: "Inter";
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+}
+
+.about-representatives-section {
+  padding-top: 32px;
+  border: 1px solid #000;
+  margin-bottom: 47px;
+}
+
+.about-representatives-section__title {
+  font-family: "Roboto";
+  font-weight: 400;
+  font-size: 45px;
+  line-height: 53px;
+  margin-bottom: 204px;
+}/*# sourceMappingURL=about.css.map */
