@@ -85,6 +85,10 @@ color: var(--main-color);
               background-color: #d5d5d5ce;
               border-radius: 15px;
               padding: 5px 7px;
+
+              &:not(:last-child){
+                margin-right: 10px;
+              }
           }
 .hero__description{
    background-color: #d5d5d5ce;

@@ -1,14 +1,4 @@
-.president-section {
-    background-image: url(../images/president-msg/president-msg-min.png);
-    background-repeat: no-repeat;
-    background-size: cover;
 
-    padding-top: 49px;
-    padding-left: 49px;
-    padding-bottom: 22px;
-    
-    border: 1px solid #000;
-}
 
 
 .president-section__title {
@@ -26,4 +16,25 @@
         line-height: 19px;
 
         margin-bottom: 78px;
+}
+
+
+@media screen and (min-width:320px){
+.president-section {
+        background-image: url(../images/president-msg/president-msg-min.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+
+        padding-top: 49px;
+        padding-left: 20px;
+        padding-bottom: 22px;
+
+        border: 1px solid #000;
+    }
+}
+
+@media screen and (min-width:767px) {
+    .president-section{
+        padding-left: 49px;
+    }
 }
