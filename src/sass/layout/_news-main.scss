@@ -54,24 +54,71 @@
 
 }
 
-.news-section__title {
-font-family: 'Roboto';
-    font-weight: 400;
-    font-size: 50px;
-    line-height: 59px;
-    
-    margin-bottom: 22px;
-}
+
 
 .news-section__title-alumni{
     color: var(--main-color);
 }
 
-.news-section__text{
-    font-family: 'Roboto';
-        font-weight: 400;
-        font-size: 16px;
-        line-height: 19px;
 
-        margin-bottom: 39px;
+
+@media screen and (min-width: 320px){
+
+    .news-section__title {
+            font-family: 'Roboto';
+            font-weight: 400;
+            font-size: 40px;
+            line-height: 59px;
+    
+            margin-bottom: 18px;
+        }
+
+                .news-section__text {
+                    font-family: 'Roboto';
+                    font-weight: 400;
+                    font-size: 14px;
+                    line-height: 19px;
+        
+                    margin-bottom: 20px;
+                }
+    .news-section__nav-item{
+        background-color: #d5d5d5ce;
+            border-radius: 15px;
+            padding: 5px 7px;
+        
+            &:not(:last-child) {
+                margin-right: 10px;
+            }
+    }
+
+    .news-section__text{
+        background-color: #d5d5d5ce;
+            border-radius: 15px;
+            padding: 5px 7px;
+    }
+}
+
+@media screen and (min-width: 1400px) {
+
+    .news-section__title {
+            font-size: 50px;
+            line-height: 59px;
+    
+            margin-bottom: 22px;
+        }
+
+                .news-section__text {
+                 
+                    font-size: 16px;
+                    line-height: 19px;
+        
+                    margin-bottom: 39px;
+                }
+    .news-section__nav-item{
+        background-color: transparent;
+    }
+
+        .news-section__text{
+            background-color: transparent;
+        }
 }
