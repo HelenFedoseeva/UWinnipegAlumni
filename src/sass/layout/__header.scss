@@ -63,9 +63,10 @@ font-family: 'Roboto';
 }
 
 
-@media screen and (min-width: 320px) {
+@media screen and (min-width: 319px) {
     .header__nav-item-btn{
         display: none;
+        
     }
 
     .header__nav-item:not(:last-child){
