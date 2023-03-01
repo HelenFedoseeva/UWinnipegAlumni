@@ -1,28 +1,7 @@
-.speaker-series-section{
-    background-image: url(../images/speaker-series-section/speaker-section-background.png);
-    background-size: cover;
-    background-repeat: no-repeat;
 
-    padding-top: 44px;
-    padding-left: 111px;
-    padding-bottom: 75px;
-    margin-bottom: 90px;
 
-    border: 1px solid #000;
-}
 
-.speaker-series-section__title {
-    margin-bottom: 66px;
-    font-family: 'Roboto';
-        font-weight: 400;
-        font-size: 45px;
-        line-height: 53px;
-}
 
-.speaker-series-section__news-item {
-    display: flex;
-    flex-direction: row;
-}
 
 .speaker-series-section__item:not(:last-child) {
     margin-right: 193px;
@@ -36,3 +15,60 @@
 }
 
 .speaker-series-section__icon {}
+
+@media screen  and (min-width: 320px){
+
+    .speaker-series-section {
+            background-image: url(../images/speaker-series-section/speaker-section-background.png);
+            background-size: cover;
+            background-repeat: no-repeat;
+    
+            padding-top: 30px;
+            padding-left: 50px;
+            padding-bottom: 75px;
+            margin-bottom: 60px;
+    
+            border: 1px solid #000;
+        }
+
+    .speaker-series-section__title {
+            margin-bottom: 50px;
+            font-family: 'Roboto';
+            font-weight: 400;
+            font-size: 30px;
+            line-height: 53px;
+        }
+
+        .speaker-series-section__item{
+            width: 90%;
+
+            &:not(:last-child){
+                margin-bottom: 15px;
+            }
+        }
+
+}
+
+@media screen and (min-width: 767px) {
+
+    .speaker-series-section {
+       
+    
+            padding-top: 44px;
+            padding-left: 111px;
+            margin-bottom: 90px;
+    
+          
+        }
+    .speaker-series-section__title {
+    margin-bottom: 66px;
+            
+            font-size: 45px;
+            line-height: 53px;
+        }
+
+                .speaker-series-section__news-item {
+                    display: flex;
+                    flex-direction: row;
+                }
+}
