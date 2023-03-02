@@ -73,39 +73,55 @@
     margin-bottom: 165px;
   }
 }
-.shop-wallet {
-  background-color: #FFFCFC;
-  padding-top: 53px;
-  padding-left: 29px;
-  padding-bottom: 53px;
-  margin-bottom: 91px;
-}
-
-.shop-wallet__title {
-  font-family: "Roboto";
-  font-weight: 400;
-  font-size: 50px;
-  line-height: 59px;
-  margin-bottom: 17px;
-}
-
-.shop-wallet__desc {
-  font-family: "Roboto";
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 19px;
-  margin-bottom: 20px;
-}
-
 .shop-wallet__nav {
   display: flex;
   align-items: center;
 }
 
-.shop-wallet__btn {
-  margin-right: 51px;
+@media screen and (max-width: 767px) {
+  .shop-wallet {
+    background-color: #fffcfc;
+    padding-top: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 15px;
+    margin-bottom: 36px;
+  }
+  .shop-wallet__title {
+    font-size: 35px;
+    line-height: 1.2;
+    margin-bottom: 13px;
+  }
+  .shop-wallet__desc {
+    font-size: 14px;
+    line-height: 1.2;
+  }
+  .shop-wallet__nav {
+    gap: 10px;
+  }
 }
-
-.shop-wallet__logo {
-  margin-right: 28px;
+@media screen and (min-width: 768px) {
+  .shop-wallet {
+    background-color: #fffcfc;
+    padding-top: 53px;
+    padding-left: 29px;
+    padding-bottom: 53px;
+    margin-bottom: 91px;
+  }
+  .shop-wallet__title {
+    font-size: 50px;
+    line-height: 59px;
+    margin-bottom: 17px;
+  }
+  .shop-wallet__desc {
+    font-size: 16px;
+    line-height: 19px;
+    margin-bottom: 20px;
+  }
+  .shop-wallet__btn {
+    margin-right: 51px;
+  }
+  .shop-wallet__logo {
+    margin-right: 28px;
+  }
 }/*# sourceMappingURL=shop.css.map */
