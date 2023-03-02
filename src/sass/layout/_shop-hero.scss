@@ -1,60 +1,85 @@
-.body-shop{
-    background-color: #E5E5E5;
+.body-shop {
+  background-color: #e5e5e5;
 }
 
 .shop-section {
-    background-color: #FEF8F8;
-    margin-top: 38px;
-    margin-bottom: 36px;
-
-
-}
-
-.shop-section__items{
-    display: flex;
-    flex-direction: row;
-
-}
-
-.shop-section__item {
-   margin-bottom: 165px;
-
-}
-
-.shop-item__shop{
-    padding-top: 103px;
-    padding-left: 46px;
-    padding-right: 76px;
+  background-color: #fef8f8;
+  margin-top: 38px;
+  margin-bottom: 36px;
 }
 
 
 
+
+
+.shop-item__shop {
+  padding-top: 103px;
+  padding-left: 46px;
+  padding-right: 76px;
+  margin-bottom: 15px;
+}
 
 .shop-section__title {
-    font-family: 'Roboto';
-        font-weight: 400;
-        font-size: 50px;
-        line-height: 59px;
+  font-family: 'Roboto';
+  font-weight: 400;
+  font-size: 50px;
+  line-height: 59px;
 
-        margin-bottom: 32px;
+  margin-bottom: 32px;
 }
 
 .shop-section__title-part {
-    color: var(--main-color);
+  color: var(--main-color);
 }
 
 .shop-section__description {
-    font-family: 'Roboto';
-        font-weight: 400;
-        font-size: 16px;
-        line-height: 19px;
+  font-family: 'Roboto';
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
 
-        margin-bottom: 38px;
+  margin-bottom: 38px;
 }
 
-.shop-item__explore{
-    padding-left: 55px;
-    padding-top: 163px;
-    padding-right: 92px;
+.shop-item__explore {
+  padding-left: 55px;
+  padding-top: 163px;
+  padding-right: 92px;
 }
 
+@media screen and (max-width: 767px) {
+    .shop-section__item-first:nth-child(2n){
+        padding-bottom: 15px;
+    }
+  .shop-section__item-first-img {
+    display: none;
+  }
+  .shop-section__title {
+    font-size: 35px;
+    line-height: 1.2;
+    margin-bottom: 20px;
+  }
+
+  .shop-item__shop {
+    padding-top: 40px;
+  }
+
+  .shop-section__description {
+    font-size: 14px;
+  }
+
+  .shop-item__explore {
+      padding-right: 22px;
+      padding-top: 0px;
+  }
+}
+
+@media screen and (min-width:768px) {
+    .shop-section__items {
+            display: flex;
+            flex-direction: row;
+        }
+                .shop-section__item {
+                    margin-bottom: 165px;
+                }
+}

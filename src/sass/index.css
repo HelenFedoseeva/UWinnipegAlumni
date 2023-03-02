@@ -6,7 +6,7 @@
 }
 
 .container {
-  min-width: 300px;
+  min-width: 280px;
   margin: 0 auto;
 }
 
@@ -137,7 +137,7 @@ img {
   fill: #e8dab7;
 }
 
-@media screen and (min-width: 320px) {
+@media screen and (min-width: 319px) {
   .header__nav-item-btn {
     display: none;
   }
@@ -256,6 +256,9 @@ img {
     border-radius: 15px;
     padding: 5px 7px;
   }
+  .hero__nav-item:not(:last-child) {
+    margin-right: 10px;
+  }
   .hero__description {
     background-color: rgba(213, 213, 213, 0.8078431373);
     border-radius: 15px;
@@ -275,16 +278,6 @@ img {
     background-color: transparent;
   }
 }
-.president-section {
-  background-image: url(../images/president-msg/president-msg-min.png);
-  background-repeat: no-repeat;
-  background-size: cover;
-  padding-top: 49px;
-  padding-left: 49px;
-  padding-bottom: 22px;
-  border: 1px solid #000;
-}
-
 .president-section__title {
   margin-bottom: 13px;
   font-family: "Roboto";
@@ -301,16 +294,26 @@ img {
   margin-bottom: 78px;
 }
 
+@media screen and (min-width: 320px) {
+  .president-section {
+    background-image: url(../images/president-msg/president-msg-min.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 49px;
+    padding-left: 20px;
+    padding-bottom: 22px;
+    border: 1px solid #000;
+  }
+}
+@media screen and (min-width: 767px) {
+  .president-section {
+    padding-left: 49px;
+  }
+}
 .description-section {
   padding-top: 138px;
   padding-left: 87px;
   padding-bottom: 115px;
-}
-
-.description-section__wrapper {
-  display: flex;
-  flex-direction: row;
-  gap: 43px;
 }
 
 .description-section__item-title {
@@ -333,31 +336,40 @@ img {
   font-size: 17px;
   line-height: 20px;
 }
-
-.speaker-series-section {
-  background-image: url(../images/speaker-series-section/speaker-section-background.png);
-  background-size: cover;
-  background-repeat: no-repeat;
-  padding-top: 44px;
-  padding-left: 111px;
-  padding-bottom: 75px;
-  margin-bottom: 90px;
-  border: 1px solid #000;
+.description-section__item-link:hover, .description-section__item-link:focus {
+  text-decoration: underline;
 }
 
-.speaker-series-section__title {
-  margin-bottom: 66px;
-  font-family: "Roboto";
-  font-weight: 400;
-  font-size: 45px;
-  line-height: 53px;
+@media screen and (min-width: 320px) {
+  .description-section__wrapper {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 35px;
+  }
+  .description-section__item {
+    width: 50%;
+    border: 1px solid #000;
+    border-radius: 4px;
+    padding: 8px;
+    min-height: 220px;
+  }
+  .description-section__item img {
+    margin: 0 auto;
+  }
 }
-
-.speaker-series-section__news-item {
-  display: flex;
-  flex-direction: row;
+@media screen and (min-width: 767px) {
+  .description-section__wrapper {
+    flex-direction: row;
+    gap: 43px;
+  }
+  .description-section__wrapper img {
+    margin-left: 0;
+  }
+  .description-section__item {
+    border: none;
+  }
 }
-
 .speaker-series-section__item:not(:last-child) {
   margin-right: 193px;
 }
@@ -369,6 +381,47 @@ img {
   line-height: 30px;
 }
 
+@media screen and (min-width: 320px) {
+  .speaker-series-section {
+    background-image: url(../images/speaker-series-section/speaker-section-background.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 30px;
+    padding-left: 50px;
+    padding-bottom: 75px;
+    margin-bottom: 60px;
+    border: 1px solid #000;
+  }
+  .speaker-series-section__title {
+    margin-bottom: 50px;
+    font-family: "Roboto";
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 53px;
+  }
+  .speaker-series-section__item {
+    width: 90%;
+  }
+  .speaker-series-section__item:not(:last-child) {
+    margin-bottom: 15px;
+  }
+}
+@media screen and (min-width: 767px) {
+  .speaker-series-section {
+    padding-top: 44px;
+    padding-left: 111px;
+    margin-bottom: 90px;
+  }
+  .speaker-series-section__title {
+    margin-bottom: 66px;
+    font-size: 45px;
+    line-height: 53px;
+  }
+  .speaker-series-section__news-item {
+    display: flex;
+    flex-direction: row;
+  }
+}
 .backdrop {
   position: fixed;
   top: 0;
