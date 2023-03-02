@@ -56,7 +56,6 @@
 }
 
 .form__title {
-  font-family: "Roboto";
   font-weight: 400;
   font-size: 20px;
   line-height: 23px;
@@ -82,7 +81,6 @@
 }
 
 .form__label-title {
-  font-family: "Roboto";
   font-weight: 400;
   font-size: 12px;
   line-height: 23px;
@@ -93,4 +91,32 @@
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+}
+
+@media screen and (max-width: 767px) {
+  .modal {
+    max-width: 85%;
+    max-height: 90%;
+  }
+  .modal__form-wrapper {
+    width: 210px;
+  }
+  .form__title {
+    font-size: 16px;
+  }
+  .form__label-title {
+    font-size: 10px;
+  }
+  .form__input {
+    width: 180px;
+  }
+  .form__input::-moz-placeholder {
+    font-size: 12px;
+  }
+  .form__input::placeholder {
+    font-size: 12px;
+  }
+  .mobile-btn {
+    min-width: 100px;
+  }
 }/*# sourceMappingURL=modal-open.css.map */
